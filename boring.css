@@ -1,0 +1,58 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("istockphoto-1177151633-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9999999;
+    background-color: black ;
+
+
+}
+
+
+#main {
+    height: 40vh;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+
+}
+#stopwatch {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+.box {
+    width: 30%;
+    height: 20%;
+    display:inline-block;
+    margin: 7px;
+    border-radius: 8px;
+    background-color: rgba(249, 245, 190, 0.8);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(253, 3, 3);
+}    
+#btns {
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.btnSet {
+    width: 70%;
+    height: 60%;
+    margin: 10px;
+    border: 3px;
+    border-radius:8px;
+    font-size: 17px;
+    background-color: rgba(150, 247, 215, 0.6);
+}
+.btnSet:hover {
+    cursor:pointer;
+    background-color: rgba(108, 185, 252, 0.898);
+    transition-duration: 0.5s;
+}
