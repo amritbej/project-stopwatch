@@ -18,17 +18,6 @@ stop.addEventListener("click",()=>{
     clearInterval(interval);
 })
 
-
-
-
-
-
-
-
-
-
-
-
 const mainFcn = function miliSec (){
     zero++;
     if(zero<=9){
